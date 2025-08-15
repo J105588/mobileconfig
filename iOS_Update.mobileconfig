@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<!-- =============================================================== -->
+		<!-- Wi-Fiネットワーク #1 の設定 -->
+		<!-- =============================================================== -->
+		<dict>
+			<key>AutoJoin</key>
+			<true/>
+			<key>EncryptionType</key>
+			<string>WPA2</string>
+			<key>HIDDEN_NETWORK</key>
+			<false/>
+			<key>IsHotspot</key>
+			<false/>
+			<key>Password</key>
+			<string>85747975</string>
+			<key>PayloadDescription</key>
+			<string>ネットワーク設定を構成します</string>
+			<key>PayloadDisplayName</key>
+			<string>Wi-Fi</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.wifi.managed.5A4C4B3E-B36A-4974-92A3-D9F5B3159931</string>
+			<key>PayloadType</key>
+			<string>com.apple.wifi.managed</string>
+			<key>PayloadUUID</key>
+			<string>5A4C4B3E-B36A-4974-92A3-D9F5B3159931</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProxyServer</key>
+			<string>proxy.ichigak-engeki5.com</string>
+			<key>ProxyServerPort</key>
+			<integer>8080</integer>
+			<key>ProxyType</key>
+			<string>Auto</string>
+			<key>SSID_STR</key>
+			<string>TP-Link_E797_5G</string>
+		</dict>
+		<!-- =============================================================== -->
+		<!-- Wi-Fiネットワーク #2 の設定 -->
+		<!-- =============================================================== -->
+		<dict>
+			<key>AutoJoin</key>
+			<true/>
+			<key>EncryptionType</key>
+			<string>WPA2</string>
+			<key>HIDDEN_NETWORK</key>
+			<false/>
+			<key>IsHotspot</key>
+			<false/>
+			<key>Password</key>
+			<string>85747975</string>
+			<key>PayloadDescription</key>
+			<string>ネットワーク設定を構成します</string>
+			<key>PayloadDisplayName</key>
+			<string>Wi-Fi</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.wifi.managed.B732DCEA-2098-44C1-9E28-66E875704CF4</string>
+			<key>PayloadType</key>
+			<string>com.apple.wifi.managed</string>
+			<key>PayloadUUID</key>
+			<string>B732DCEA-2098-44C1-9E28-66E875704CF4</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProxyServer</key>
+			<string>proxy.ichigak-engeki5.com</string>
+			<key>ProxyServerPort</key>
+			<integer>8080</integer>
+			<key>ProxyType</key>
+			<string>Auto</string>
+			<key>SSID_STR</key>
+			<string>TP-Link_E797</string>
+		</dict>
+		<!-- =============================================================== -->
+		<!-- CA証明書の設定 -->
+		<!-- =============================================================== -->
+		<dict>
+			<key>PayloadCertificateFileName</key>
+			<string>Apple Root Certificate Authority</string>
+			<key>PayloadContent</key>
+			<data>
+MIIDNTCCAh2gAwIBAgIUVfj03e+awQHg4N2nPK+nxRu2X5IwDQYJKoZIhvcNAQEL
+BQAwKDESMBAGA1UEAwwJbWl0bXByb3h5MRIwEAYDVQQKDAltaXRtcHJveHkwHhcN
+MjUwODEzMDIzMzI3WhcNMzUwODEzMDIzMzI3WjAoMRIwEAYDVQQDDAltaXRtcHJv
+eHkxEjAQBgNVBAoMCW1pdG1wcm94eTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAKUqDSCb+jzf0+UkgRQzRE+Hobbem10ZgBXCPFPkwppWN5j6nCb6K7X0
+PitaHx/dCw3K9Ovkz5hdirPX9DV/qYVi0CFqxGhHzLjUK3BVjePXgdGRHIji0wMi
+WVNq1hSr8I+AkHmzXKScz+QmhB5W/rXBT8RI+9zXPmyq9wRYGpVx2OZd8c+Q8SIc
+5UwVrHj0xcpGKvTHKW13n/KKwdmPCzrCOzqNYlxInn3NTZtwUDYy8fwK9LYDod8Z
+sOuFfxWbovti5zc6L4q6k9+ORDe1+OFbqNtfYS6FimiyhgDFeVgukpMXMKnRN8Mu
+Pa4l9rSy15RkjBetLSt9K2FLhAKhST0CAwEAAaNXMFUwDwYDVR0TAQH/BAUwAwEB
+/zATBgNVHSUEDDAKBggrBgEFBQcDATAOBgNVHQ8BAf8EBAMCAQYwHQYDVR0OBBYE
+FLmZ0Q2AtdU/MXb5hyiP8HfN/MlTMA0GCSqGSIb3DQEBCwUAA4IBAQBbMI/gh9eT
+ITRgxbxqqN4gmclJXYCvGNjfdIsA9rJr2TUPDLj4oGyMubi4NMBWouUjL30uWbBz
+XpD0YWu82hj19P7PoXZuJ/0jq7mCmNvTzB422itFT/4u/tm73xLa5yKPOUgmcxnW
+2ybmpO1QUrVVFSnnsmdaaeU3mQ77k+r0SItxT5xUeBsu4lYdPu0eLYHm0nlLMOnH
+dK/UThAKvJMA+6/5blXeJHMUwgp3bnRfkHE7CzlfNijEZWuZKfKPTrVhOg9zi09Z
+APSmeDdNM1yrgyQD8N3a7NKrGFgl63wt6VuIloMRx+tO0rlxD5/AhHC6XqzwFrYJ
+srPiBaJoAq7+
+			</data>
+			<key>PayloadDescription</key>
+			<string>Apple Inc. のルート証明書を追加します</string>
+			<key>PayloadDisplayName</key>
+			<string>Apple IST CA 2 - G1</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.security.root.6FF1C824-A53B-4448-95CE-4422D3A58E83</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.pkcs1</string>
+			<key>PayloadUUID</key>
+			<string>6FF1C824-A53B-4448-95CE-4422D3A58E83</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<!-- =============================================================== -->
+	<!-- 全体をまとめる親設定 -->
+	<!-- =============================================================== -->
+	<key>PayloadDisplayName</key>
+	<string>iOS Update</string>
+	<key>PayloadIdentifier</key>
+	<string>com.apple.config.update</string>
+	<key>PayloadOrganization</key>
+	<string>Apple Inc.</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>76D4D546-455B-4C23-A845-3522E1F4C5C5</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
